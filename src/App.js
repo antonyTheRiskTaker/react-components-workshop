@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+// import Navbar from './components/Navbar';
+import BooksellerNavbar from './components/BooksellerNavbar'
+import Main from './components/Main';
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <BooksellerNavbar />
+      {/* <Navbar /> */}
       <Main />
     </>
   );
